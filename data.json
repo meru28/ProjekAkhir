@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "meru",
+      "password": "meru",
+      "email": "bunting@ngesot.com"
+    },
+    {
+      "id": 2,
+      "username": "Bernacle",
+      "password": "bernacleKesurupan",
+      "email": "kesurupan@bernacle.com"
+    },
+    {
+      "username": "joko",
+      "email": "joko@gmail.com",
+      "password": "asdf",
+      "phone": "0813124",
+      "id": 3
+    },
+    {
+      "username": "ciki",
+      "email": "ciki@gi.com",
+      "password": "jojo",
+      "phone": "19723091823",
+      "id": 4
+    },
+    {
+      "username": "joko",
+      "email": "o@gmail.com",
+      "password": "asdf",
+      "phone": "233",
+      "id": 5
+    },
+    {
+      "username": "SDf",
+      "email": "jo@gmail.com",
+      "password": "ads",
+      "phone": "234234",
+      "id": 6
+    },
+    {
+      "username": "jiji",
+      "email": "jiji@asdf.com",
+      "password": "asdf",
+      "phone": "02394",
+      "id": 7
+    },
+    {
+      "username": "asdfad",
+      "email": "adsf2r2@gasd.vo",
+      "password": "ghfg",
+      "phone": "3453453",
+      "id": 8
+    },
+    {
+      "username": "dsdfs",
+      "email": "asfsf@agd.com",
+      "password": "fgdfg",
+      "phone": "234234234",
+      "id": 9
+    },
+    {
+      "username": "asdfasd",
+      "email": "asdfs",
+      "password": "adsfads",
+      "phone": "234534",
+      "id": 10
+    }
+  ],
+  "popok": [
+    {
+      "nama": "Popok Semi Premium",
+      "merk": "Kancut Gajah",
+      "harga": "30000",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "Popok gaja tidak mudah melar",
+      "id": 2
+    },
+    {
+      "nama": "Popok Semut",
+      "merk": "Kancut Gajah",
+      "harga": "23423",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "popok gajah",
+      "id": 3
+    },
+    {
+      "nama": "Popok Anjing",
+      "merk": "Pampers Ultraman",
+      "harga": "20000",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "Popok mudah melar",
+      "id": 4
+    },
+    {
+      "nama": "Popok Kucing",
+      "merk": "Pampers Ultraman",
+      "harga": "34000",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "Popok mudah bolong",
+      "id": 5
+    },
+    {
+      "nama": "Popok bekas",
+      "merk": "Kancut Gajah",
+      "harga": "3453",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "aasdf",
+      "id": 6
+    },
+    {
+      "nama": "Popok bolong",
+      "merk": "Kancut Gajah",
+      "harga": "3453",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "aasdf",
+      "id": 7
+    },
+    {
+      "nama": "Popok buntu",
+      "merk": "Kancut Singa",
+      "harga": "34345",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "asdfas",
+      "id": 8
+    },
+    {
+      "nama": "asfasdf",
+      "merk": "Pampers Ultraman",
+      "harga": "234234",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "asfasf",
+      "id": 9
+    },
+    {
+      "nama": "asdfasdf",
+      "merk": "Kancut Gajah",
+      "harga": "234234",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "description": "asdfasd",
+      "id": 10
+    }
+  ],
+  "order": [
+    {
+      "username": "meru",
+      "id_produk": 8,
+      "nama_produk": "Popok buntu",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "harga_produk": "34345",
+      "kuantitas": "10",
+      "total": 343450,
+      "id_order": 1,
+      "id": 1
+    },
+    {
+      "username": "meru",
+      "id_produk": 7,
+      "nama_produk": "Popok bolong",
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "harga_produk": "3453",
+      "kuantitas": "5",
+      "total": 17265,
+      "id_order": 1,
+      "id": 4
+    }
+  ],
+  "history": [
+    {
+      "harga_produk": 30000,
+      "id": 1,
+      "id_order": 1,
+      "id_produk": 2,
+      "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+      "kuantitas": "1",
+      "nama_produk": "Popok Semi Premium",
+      "total": 30000,
+      "username": "meru"
+    },
+    {
+      "username": "meru",
+      "order": [
+        {
+          "username": "meru",
+          "id_produk": 3,
+          "nama_produk": "Popok Semut",
+          "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+          "harga_produk": "23423",
+          "kuantitas": "1",
+          "total": 23423,
+          "id_order": 1,
+          "id": 1
+        },
+        {
+          "username": "meru",
+          "id_produk": 9,
+          "nama_produk": "asfasdf",
+          "img": "https://my-best.id/wp-content/uploads/2018/01/fitur-popok-214x214.jpg",
+          "harga_produk": "234234",
+          "kuantitas": "10",
+          "total": 2342340,
+          "id_order": 1,
+          "id": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
