@@ -4,7 +4,8 @@ import { USER_LOGIN_SUCCESS,
          AUTH_LOADING, 
          LOGOUT, 
          COOKIE_CHECKED, 
-         SELECT_POPOK} from './types'
+         SELECT_POPOK,
+         TAMBAHIN_CART} from './types'
 
 export const onUserRegister = ({username, email, phone, password}) => {
     return (dispatch) => {
@@ -146,6 +147,12 @@ export const select_popok = (selectedPopok) => {
     return {
         type: SELECT_POPOK,
         payload: selectedPopok
+    }
+}
+
+export const tambahinCart = () => {
+    return{
+        type: TAMBAHIN_CART 
     }
 }
 

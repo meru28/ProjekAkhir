@@ -4,3 +4,4 @@ export const AUTH_LOADING = 'AUTH_LOADING';
 export const LOGOUT = 'LOGOUT';
 export const COOKIE_CHECKED = 'COOKIE_CHECKED';
 export const SELECT_POPOK = 'SELECT_POPOK';
+export const TAMBAHIN_CART = 'TAMBAHIN_CART'

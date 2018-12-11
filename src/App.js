@@ -11,6 +11,8 @@ import Cookies from 'universal-cookie';
 import { keepLogin, cookieChecked } from './actions';
 import { withRouter } from 'react-router-dom';
 import PopokDetail from './components/PopokDetail';
+import CartBertasbih from './components/CartBertasbih';
+import HistoryBertasbih from './components/HistoryBertasbih';
 
 const cookies = new Cookies();
 
@@ -54,6 +56,8 @@ class App extends Component {
           <Route path="/popoklist" component={PopokListBertasbih}/>
           <Route path="/managepopok" component={ManagePopok}/>
           <Route path="/popokdetail" component={PopokDetail}/>
+          <Route path="/cart" component={CartBertasbih}/>
+          <Route path="/history" component={HistoryBertasbih}/>
           </div>
           {/* <ContentBertasbih contentHeader={content}>
           </ContentBertasbih> */}
