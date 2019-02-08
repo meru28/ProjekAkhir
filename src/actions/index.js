@@ -24,8 +24,12 @@ export const onUserRegister = ({username, email, phone, password}) => {
                     username, email, password, phone
                     })
                     .then((res) => {
-                        console.log(res)
-                        dispatch({type: USER_LOGIN_SUCCESS, payload: username})
+                        console.log('masuk')
+                        console.log(typeof res.data.username)
+                        dispatch({
+                            type: USER_LOGIN_SUCCESS, 
+                            payload: {email: res.data.email, username}
+                        })
                     })
                     .catch((err) => {
                         console.log(err)

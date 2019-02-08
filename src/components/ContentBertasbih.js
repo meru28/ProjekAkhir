@@ -5,14 +5,12 @@ class ContentBertasbih extends Component {
         return (
             <div>
                 <center>
-                <h1>{this.props.contentHeader}</h1>
-                {this.props.children}
+                    <h1>{this.props.contentHeader}</h1>
+                        {this.props.children}
                 </center>
-                
-
             </div>
-        )
+                )
+            }
     }
-}
 
 export default ContentBertasbih;

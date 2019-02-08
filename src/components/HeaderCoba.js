@@ -40,26 +40,24 @@ class HeaderCoba extends Component {
     // componentDidUpdate(){
     //     console.log('Ini Did Update')
     // }
-    constructor(props) {
-        super(props);
     
-        this.toggle = this.toggle.bind(this);
-        this.state = {
+        state = {
           isOpen: false
         };
-      }
-      toggle() {
+      
+      toggle = () => {
         this.setState({
           isOpen: !this.state.isOpen
         });
       }
+        
 
       onLogOutSelect = () => {
         console.log()
         this.props.onUserLogout();
         cookies.remove('dataUser');
       }
-
+      
     render() {
         if(this.props.username === ""){
             return(
@@ -79,23 +77,6 @@ class HeaderCoba extends Component {
                       <NavItem>
                         <Link to="/login"><NavLink>Login</NavLink></Link>
                       </NavItem>
-                      {/* <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                          Hello, {this.props.username}
-                        </DropdownToggle>
-                        <DropdownMenu right>
-                          <DropdownItem>
-                            Option 1
-                          </DropdownItem>
-                          <DropdownItem>
-                            Option 2
-                          </DropdownItem>
-                          <DropdownItem divider />
-                          <DropdownItem>
-                            Reset
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown> */}
                     </Nav>
                   </Collapse>
                 </Navbar>

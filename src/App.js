@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import HeaderCoba from './components/HeaderCoba';
-import { Route } from 'react-router-dom';
+import { Route, withRouter } from 'react-router-dom';
 import LoginBertasbih from './components/LoginBertasbih';
 import HomeBertasbih from './components/HomeBertasbih';
 import RegisterBertasbih from './components/RegisterBertasbih';
@@ -9,7 +9,6 @@ import PopokListBertasbih from './components/PopokListBertasbih';
 import ManagePopok from './components/ManagePopok';
 import Cookies from 'universal-cookie';
 import { keepLogin, cookieChecked } from './actions';
-import { withRouter } from 'react-router-dom';
 import PopokDetail from './components/PopokDetail';
 import CartBertasbih from './components/CartBertasbih';
 import HistoryBertasbih from './components/HistoryBertasbih';

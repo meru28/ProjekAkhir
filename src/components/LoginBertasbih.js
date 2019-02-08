@@ -14,6 +14,7 @@ class LoginBertasbih extends Component {
   //ke trigger saat ada props baru & masuk ke dalam newProps
   //will risif prop jalan sebelum render lagi
   componentWillReceiveProps(newProps) {
+    console.log(newProps);
     if(newProps.username !== ''){
       //bikin cookie nama dataUser yg dicatat adalah username
       cookies.set('dataUser', newProps.username, { path: '/' })//path: '/' supaya bisa diakses di semua page
@@ -25,7 +26,6 @@ class LoginBertasbih extends Component {
     var username = this.refs.username.value;
     var password = this.refs.password.value;
     //dikirim atau dipanggil action creator utk dikirim ke global state (action creator adlh sbuah function)
-    //
     this.props.onUserLogin({username, password})//username & password disini maksudnya di dalam objek dan ini adalah satu parameter krn di dalam objek yg diambil dari variabel di atas baris ini
 
   }
@@ -49,25 +49,12 @@ renderButton = () => {
     </button>
   </div>
 </div>
-  // <Button color="success"
-  // onClick={this.onBtnLoginClick}>Login</Button>
 }
 
     render () {
       if(this.props.username === ""){
         return (
           <div>
-              {/* <center><h1>Login Bertasbih</h1></center>
-              <br></br>
-              <Form style={{ margin: "0 auto"}} className="col-3">
-          <FormGroup>
-            <Label for="exampleEmail">Username</Label>
-            <Input type="text" name="username" ref="username" innerRef="tbUsername" id="exampleUsername" placeholder="masukkan username" />
-          </FormGroup>
-          <FormGroup>
-            <Label for="examplePassword">Password</Label>
-            <Input type="password" name="password" ref="password" innerRef="tbPassword" id="examplePassword" placeholder="passwordmu le" />
-          </FormGroup> */}
           <div className="limiter bg-gra-02">
         <div className="container-login100">
           <div className="wrap-login100 p-l-30 p-r-30 p-t-40 p-b-34">
@@ -127,17 +114,11 @@ renderButton = () => {
           </div>
         </div>
       </div>
-          
-          
-          
-        {/* </Form> */}
           </div>
           );
       }; 
-      return <Redirect to="/" />
-        
+      return <Redirect to="/" />   
     }
-
 }
 
 //ambil data dari global state
